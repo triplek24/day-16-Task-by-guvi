@@ -1,0 +1,52 @@
+
+h1{
+    font: size 1.5em;
+    text-align: center;
+
+}  
+form{
+    margin:0 auto;
+    width: 60%;
+    padding: 5.8em;
+    border: 2px solid #ccc;
+    border-radius: 1em;
+} 
+
+ fieldset{
+     border: 2px solid lightgray;
+     margin: 40px;
+     display: flex;
+     justify-content: space-between;
+   height: 150px;
+   width: 70%;
+
+ }
+#outside{
+    padding: 60px;
+    margin: 40px;
+    width: 80%;
+}
+p{
+    text-align: center;
+}
+img{
+    display: flex;
+   padding-bottom: 10px;
+    width: 150px;
+   
+}
+.centred{
+display: flex;
+justify-content: flex-end;
+}
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+    

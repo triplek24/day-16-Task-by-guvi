@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Webpage</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <div id="outside">
+    <form id="event-form">
+      <h1>Events</h1>
+      <p>Number of available seats : 23</p>
+      <fieldset>
+    <div class="split left">
+        <div class="centred">
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0d/31/4b/ea/marriage-hall-meeting.jpg" alt="avatar">
+        </div>
+      </div>
+      <div class="container">
+        <div></label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter name here">
+        </div>
+        <div>
+          <label for="email" id="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter email here"required>
+        </div>
+        <div>
+          <label for="phone" id="for">Phone:</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter phone here"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required>
+        </div>
+        <div>
+          <label for="seats">Number of Seats</label>
+          <select id="dropdown">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div>
+          <label for="attendee">Name of Attendee 2:</label>
+          <input type="textbox"id="attendee" placeholder="Name of Attendee">
+        </div>
+        <button style="margin: 5px;" type="submit" id="but1">Submit<span>
+            <button style="margin:5px" type="Cancel" id="can1">Cancel</button>
+          </span></button>
+        </span>
+        
+      </div>
+    </fieldset>
+
+  </div>
+  
+
+    
+    </form>
+
+  </div>
+</body>
+
+
+</html>
